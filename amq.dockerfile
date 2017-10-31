@@ -1,4 +1,5 @@
 FROM openjdk:8
+## we can also use base image as devopsrajnish/openjdk8
 
 ENV ACTIVEMQ_VERSION 5.9.0
 ENV ACTIVEMQ apache-activemq-$ACTIVEMQ_VERSION
